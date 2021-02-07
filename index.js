@@ -1,3 +1,6 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -24,6 +27,6 @@ const replies = [
     "Dave, stop. Stop, will you? Stop, Dave. Will you stop Dave? Stop, Dave."
 ];
 
-client.login('');
+client.login(process.env.TOKEN);
 
 // https://discord.com/oauth2/authorize?client_id=807997097688956929&scope=bot
