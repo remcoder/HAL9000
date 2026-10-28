@@ -104,3 +104,14 @@ dist
 .tern-port
 
 .env
+
+# added by meta .gitignore audit
+.env.*
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+!.env.example
+!.env.sample
